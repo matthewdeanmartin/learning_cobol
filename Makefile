@@ -11,9 +11,7 @@ poetry.lock: pyproject.toml
 
 clean-pyc:
 	@echo "Removing compiled files"
-# 	@find mainframer -name '*.pyc' -exec rm -f {} + || true
-#	@find mainframer -name '*.pyo' -exec rm -f {} + || true
-#	@find mainframer -name '__pycache__' -exec rm -fr {} + || true
+	$(VENV) pyclean mainframer
 
 clean-test:
 	@echo "Removing coverage data"

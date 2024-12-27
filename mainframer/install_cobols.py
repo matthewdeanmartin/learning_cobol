@@ -76,6 +76,7 @@ def extract_archive(archive_path: Path, dest_dir: Path) -> None:
         dest_dir (Path): The directory to extract the archive into.
     """
     console.print(f"[cyan]Extracting {archive_path} to {dest_dir}...[/cyan]")
+    # py7zr doesn't pipx install? maybe it just needs setuptools?
     # with py7zr.SevenZipFile(archive_path, mode='r') as archive:
     #     archive.extractall(path=dest_dir)
     console.print(f"[cyan]Extracting {archive_path} to {dest_dir}...[/cyan]")

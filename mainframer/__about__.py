@@ -16,14 +16,14 @@ __all__ = [
 ]
 
 __title__ = "mainframer"
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 __description__ = "GnuCOBOL environment and package manager."
 __author__ = "Matthew Martin"
 __author_email__ = "matthewdeanmartin@gmail.com"
 __keywords__ = ["cobol", "gnucobol"]
 __status__ = "4 - Beta"
 __license__ = "MIT"
-__readme__ = "README.md"
+__readme__ = "Mainframer.md"
 __repository__ = "https://github.com/matthewdeanmartin/mainframer"
 __homepage__ = "https://github.com/matthewdeanmartin/mainframer"
 __documentation__ = "https://matthewdeanmartin.github.io/mainframer/mainframer/index.html"

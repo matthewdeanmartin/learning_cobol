@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "mainframer"
-version = "0.1.0"
+version = "0.2.0"
 description = "GnuCOBOL environment and package manager."
 authors = ["Matthew Martin <matthewdeanmartin@gmail.com>"]
 keywords = ["cobol", "gnucobol" ]
@@ -47,7 +47,7 @@ toml = ">=0.10.2"
 tomli-w = "*"
 
 # Compression
-py7zr = "*"
+# py7zr = "*"
 
 # UI
 rich = ">=13.9.4"
@@ -69,6 +69,8 @@ pytest-xdist =">=3.5.0"
 pytest-randomly=">=3.15.0"
 pytest-sugar =">=0.9.7"
 pytest-mock = "*"
+
+pyclean = "*"
 
 hypothesis = ">=6.96.0"
 tox = "*"
