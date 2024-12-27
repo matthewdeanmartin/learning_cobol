@@ -1,0 +1,10 @@
+[project]
+gnucobol = "3.2"
+
+[compiler]
+name = "cobc"
+version = "3.2"
+
+# TODO
+[packages]
+"name" = { version="1.2.3", url="github.com/matthewdeanmartin/mainframer" }
