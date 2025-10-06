@@ -2,7 +2,6 @@ import logging
 import os
 import subprocess
 from pathlib import Path
-from typing import Optional
 
 import httpx
 from httpx import HTTPStatusError
@@ -87,7 +86,7 @@ def extract_archive(archive_path: Path, dest_dir: Path) -> None:
         console.print(f"[red]{e}[/red]")
 
 
-def install_cobol_version(command: str, version: str, install_dir: Optional[Path] = None) -> None:
+def install_cobol_version(command: str, version: str, install_dir: Path | None = None) -> None:
     """Install a specific version of GnuCobol.
 
     Args:
