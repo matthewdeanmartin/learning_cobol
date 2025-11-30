@@ -1,5 +1,9 @@
 # Learning Cobol
 
+## Archived.
+
+See matthewdeanmartin/mainframer for the continuation
+
 ## Goals
 
 This is me doing some recreational programming with GnuCOBOL
